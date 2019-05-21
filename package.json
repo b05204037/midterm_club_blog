@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
-    "start": "concurrently --kill-others-on-fail \"nodemon server\" \"cd client && npm start\""
+    "start": "concurrently --kill-others-on-fail \"node server\" \"cd client && npm start\""
   },
   "author": "",
   "license": "ISC",
